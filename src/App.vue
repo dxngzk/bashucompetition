@@ -4,6 +4,7 @@
     <router-link to="/Problem">Problem</router-link>
     <router-link to="/Contest">Contest</router-link>
     <img src="./assets/logo.png">
+    <el-button type="primary" @click="gaj">异步获取</el-button>
     <router-view></router-view>
   </div>
 </template>
